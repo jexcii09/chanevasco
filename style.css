@@ -104,3 +104,9 @@ html, body {
     background-color: var(--tertiary);
     color: var(--header);
 }
+
+
+
+.active {
+    text-decoration: underline;
+}
