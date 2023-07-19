@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+    --first: #393646;
+    --second: #4F4557;
+    --third: #6D5D6E;
+    --fourth: #F4EEE0;
+}
+
+html, body {
+    /* background-color: var(--first); */
+    font-family: 'Roboto Slab', serif;
+}
+
+.background-first {
+    background-color: var(--first);
+}
+.background-second {
+    background-color: var(--second);
+}
+.background-third {
+    background-color: var(--third);
+}
+.background-fourth {
+    background-color: var(--fourth);
+}
+
+.btn-background-first {
+    background-color: var(--first);
+}
+.btn-background-first:hover {
+    background-color: var(--second);
+    color: var(--fourth)
+}
+.btn-background-second {
+    background-color: var(--second);
+}
+.btn-background-third {
+    background-color: var(--third);
+}
+.btn-background-fourth {
+    background-color: var(--fourth);
+}
+
+.color-first {
+    color: var(--first)
+}
+.color-second {
+    color: var(--second)
+}
+.color-third {
+    color: var(--third)
+}
+.color-fourth {
+    color: var(--fourth)
+}
+
+
+.display-7 {
+    font-size: 2rem;
+}
+.display-8 {
+    font-size: 1.5rem;
+}
+.display-9 {
+    font-size: 1.2rem;
+}
+.display-10 {
+    font-size: .5rem;
+}
